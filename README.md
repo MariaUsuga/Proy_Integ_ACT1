@@ -23,3 +23,11 @@ Completa todas las funciones marcadas con TODO en el módulo src/load.py. Asegú
 3. Se hace la Verificación:
 Para garantizar que el código cumple con los requisitos, utilizamos el siguiente comando para probar el módulo:
 pytest tests/test_extract.py
+
+# Entrega 2:
+
+Transformación
+
+Teniendo los datos almacenados en el Data Warehouse, se hacen consultas y transformaciones.
+
+Se completan todos los scripts .sql con la marca TODO dentro de la carpeta queries/.
