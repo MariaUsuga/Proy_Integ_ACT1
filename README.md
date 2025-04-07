@@ -31,3 +31,25 @@ Transformación
 Teniendo los datos almacenados en el Data Warehouse, se hacen consultas y transformaciones.
 
 Se completan todos los scripts .sql con la marca TODO dentro de la carpeta queries/.
+
+
+# Entrega 3:
+
+Se sube la carpeta airflow, donde se trabajan los archivos y Dags - Airflow, Docker.
+
+Proyecto con Apache Airflow
+
+Este proyecto usa Apache Airflow para orquestar flujos de trabajo de datos. Airflow se ejecuta dentro de un contenedor Docker y gestiona un pipeline que incluye tareas de extracción, transformación y carga de datos (ETL).
+
+Estructura del Proyecto
+airflow/
+│
+├── dags/               # Carpeta donde se encuentran los archivos de los DAGs
+│   ├── extract.py      # Tarea de extracción de datos
+│   ├── transform.py    # Tarea de transformación de datos
+│   └── load.py         # Tarea de carga de datos
+│
+├── airflow.cfg         # Configuración de Airflow
+└── Dockerfile          # Dockerfile para crear la imagen de Airflow
+
+
